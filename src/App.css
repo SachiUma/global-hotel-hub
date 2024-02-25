@@ -1,18 +1,24 @@
 /* App.css */
+.welcome-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  padding: 20px;
+}
+
+.picture-container {
+  width: 40%;
+  text-align: center;
+  margin: auto; /* Adjust margin */
+}
+
 .App {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background: linear-gradient(135deg, #3498db, #9b59b6);
-}
-
-.welcome-container {
-  display: flex;
-  align-items: center;
-  width: 60%;
-  padding: 20px;
-  margin-right: auto;
+  background: linear-gradient(135deg, #c94b4b, #8c4fb6, #4a69bd);
 }
 
 .welcome-content {
@@ -49,11 +55,6 @@
   color: #fff;
 }
 
-.picture-container {
-  width: 40%;
-  text-align: center;
-  margin-left: auto;
-}
 
 .picture-container img {
   max-width: 100%;

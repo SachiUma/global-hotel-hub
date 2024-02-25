@@ -5,6 +5,7 @@ import './App.css';
 import { Link, Navigate, useNavigate } from 'react-router-dom';
 import DashboardPage from './DashboardPage';
 
+
 function LoginPage() {
     // const [isLoggedIn, setIsLoggedIn] = useState(false);
     const navigate = useNavigate();
@@ -23,7 +24,8 @@ function LoginPage() {
         <div className='App'>
             <div className="welcome-container">
                 <div className="welcome-content">
-                    <p>Welcome to the Global Hotel Hub LK</p>
+                    <p>AYUBOWAN</p>
+                    <p> Welcome to Global Hotel Hub LK</p>
                     {/* Add the GoogleLogin component */}
                     <GoogleLogin
                         clientId="282348999224-f7rb68ft1cig9ntsnhag3bn1h7kgg6q5.apps.googleusercontent.com"
@@ -34,7 +36,7 @@ function LoginPage() {
                     />
                 </div>
                 <div className="picture-container">
-                    <img src="/hotel.png" alt="Hotel" />
+                    <img src="/hotel.jpg" alt="Hotel" />
                 </div>
             </div>
         </div>
